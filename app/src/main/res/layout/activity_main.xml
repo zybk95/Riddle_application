@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="1"
+    tools:context="com.example.zeybek.myapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:gravity="center_vertical|center"
+        android:padding="25dp"
+        android:text="@string/bilmece_sorusu" />
+    <!--android:layout_marginTop="100dp"  burada yukarıdan ne kadar mesafede olacağı yazıyor-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:gravity="center_vertical|center"
+        android:padding="25dp"
+        android:text="Cevabı Göster" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center_vertical|center"
+        android:padding="25dp" />
+
+    <!--android:layout_marginTop="100dp"  burada yukarıdan ne kadar mesafede olacağı yazıyor -->
+
+</LinearLayout>

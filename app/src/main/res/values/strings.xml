@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bilmece Uygulaması V 0.1</string>
+    <string name="bilmece_sorusu">Tarlada biter, Makine büker, Sabah akşam Elimizi yüzümüzü öper.</string>
+    <string name="bilmece_cevabı">Havlu</string>
+</resources>
